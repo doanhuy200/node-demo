@@ -1,0 +1,26 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "this is project demo about node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "devstart": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-demo"
+  },
+  "author": "huy doan",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
